@@ -1,0 +1,11 @@
+--SELECT * 
+--FROM SqlTutorials.dbo.EmployeeDemoGraphics
+--Full Outer Join SqlTutorials.dbo.EmployeeSalary
+--ON EmployeeDemoGraphics.EmployeeID = EmployeeSalary.EmployeeID
+
+--SELECT *
+--FROM SqlTutorials.dbo.EmployeeDemoGraphics
+--UNION ALL
+--SELECT * 
+--FROM SqlTutorials.dbo.WareHouseEmployeeDemoGraphics
+--ORDER BY FirstName

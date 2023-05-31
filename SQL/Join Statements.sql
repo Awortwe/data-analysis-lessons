@@ -40,3 +40,7 @@
 --FROM SqlTutorials.dbo.EmployeeSalary
 --WHERE JobTitle = 'Salesman'
 --GROUP BY JobTitle
+
+--SELECT JobTitle, AVG(Salary) AS AverageSalary
+--FROM SqlTutorials.dbo.EmployeeSalary
+--GROUP BY JobTitle

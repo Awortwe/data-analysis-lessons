@@ -10,6 +10,19 @@
 --	Gender varchar(50)
 --)
 
+CREATE TABLE WareHouseEmployeeDemoGraphics(
+	EmployeeID int,
+	FirstName varchar(50),
+	LastName varchar(50),
+	Age int,
+	Gender varchar(50)
+)
+
+INSERT INTO WareHouseEmployeeDemoGraphics VALUES
+(1010, 'Roy', 'Anderson', 31, 'Male'),
+(1011, 'Darryl', 'Philbin', 31, 'Male'),
+(1012, 'Val', 'Johnson', 31, 'Female')
+
 --CREATE TABLE EmployeeSalary
 --(
 --	EmployeeID int,
